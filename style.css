@@ -1,0 +1,109 @@
+@charset  "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@300&family=Smooch+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
+
+:root {
+
+--cor01: #001427;
+--cor02: #708D81;
+--cor03: #F4D58D;
+--cor04: #BF0603;
+--cor05: #8D0801;
+
+--font-destaque:  'Cormorant Garamond', serif;
+--font-texto: ' Bebas Neue ', sans-serif; 
+
+
+}
+
+
+
+body{
+
+background-color: rgba(92, 92, 241, 0.397);
+
+}
+
+p{
+    font-family: var(--font-texto);
+    font-size: 1em;
+    text-indent: 7px;
+    text-align: justify;
+    
+}
+header{
+
+padding: 20px;
+margin: 15px;
+border-radius: 3px;
+background-color: var(--cor02);
+}
+
+main{
+ max-width: 1000px;
+ min-width: 300px;
+ padding: 40px;
+ margin: 25px;
+ background-color: var(--cor03);
+ border-bottom-left-radius: 15px;
+ border-bottom-right-radius: 15px;
+ margin: auto;
+ 
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534); 
+ 
+}
+
+
+footer{
+border-radius: 10px;    
+padding: 10px;
+background-color: var(--cor01);
+color: gray;
+
+}
+
+footer a:hover { background-color:var(--cor02);
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+footer a {
+    text-decoration: none;
+}
+
+main img.fofa {
+
+    width: 2%;
+}
+
+
+main img{
+display: block;
+margin: auto;
+}       
+
+
+h1{ font-family: var(--font-destaque);
+    font-weight: 800;
+    font-size: 3em;
+    background-image: linear-gradient(to right, var(--cor02), transparent );
+
+}
+
+
+h2{
+  font-family: var(--font-destaque);
+  font-weight: 800;
+  font-size: 3em;
+  background-image: linear-gradient(to right, var(--cor02), transparent );
+
+ 
+}
+
+h3{ font-family: var(--font-destaque);
+    font-weight: 800;
+    font-size: 3em;
+    background-image: linear-gradient(to right, var(--cor02), transparent );
+
+}
